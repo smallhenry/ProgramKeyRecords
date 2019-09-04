@@ -1,0 +1,35 @@
+<HTML lang="zh-TW">
+<HEAD>
+<meta charset="utf-8">
+
+<style>
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	document.getElementById('res').setAttribute('list', 'resid');
+});
+    
+</script>
+
+</HEAD>
+<BODY>
+
+<!--<form id="form1" action="https://google.com" method="get" target="_blank">-->
+<form id="form1"  method="get" >
+	<input type="text" placeholder="請輸入回覆內容" name="res" id="res" />
+	<br>
+	<button>提交</button>
+	
+</form>
+
+<datalist id="resid">
+	<option>非常好</option>
+	<option>還不錯</option>
+	<option>有待努力</option>
+	<option>很糟糕</option>
+</datalist>
+	
+</BODY>
+</HTML>
